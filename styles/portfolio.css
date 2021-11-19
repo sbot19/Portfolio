@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #498662;
+  --secondary-color: #2fc0b4;
+  --tertiary-color: #fa8d98;
+  --footer-color: #f2ff97;
+  --my-name-font: "Shadows Into Light Two", cursive;
+  --heading-font: "Bodoni Moda", serif;
+  --main-font: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(252, 207, 140);
+  color: var(--primary-color);
+  font-family: var(--main-font);
+}
+
+h1,
+h2 {
+  font-family: var(--heading-font);
+  text-align: center;
+}
+
+.name {
+  font-family: var(--my-name-font);
+  font-size: 60px;
+  padding: 20px;
+}
