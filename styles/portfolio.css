@@ -19,9 +19,15 @@ h2 {
   font-family: var(--heading-font);
   text-align: center;
 }
-
+footer{
+  color: var(--footer-color);
+}
 .name {
   font-family: var(--my-name-font);
   font-size: 60px;
   padding: 20px;
+}
+.footer-icon{
+  font-size: 25px;
+  margin: 0 20px;
 }
