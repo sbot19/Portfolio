@@ -19,6 +19,11 @@ footer {
   color: var(--footer-text-color);
 }
 
+h1 {
+  font-family: var(--heading-font);
+  text-align: center;
+}
+
 footer p {
   font-family: var(--paragraph-font);
   font-size: 12px;
@@ -60,6 +65,31 @@ footer p {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+.carousel {
+  display: block;
+  align-content: center;
+  width: 500px;
+  height: 360px;
+  padding: 30px 50px;
+  margin: 0 auto;
+  border: 7px solid var(--primary-color);
+  border-radius: 7px;
+  background: var(--tertiary-color);
+}
+
+.carousel-image {
+  max-height: 700px;
+  margin: 0 auto;
+  padding: 10px 20px 0;
+}
+
+.carousel-indicators,
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: var(--footer-text-color);
+}
+/* Why is the color is not applied? It only displaye default white/gray colors. */
 
 .footer-icon {
   font-size: 25px;

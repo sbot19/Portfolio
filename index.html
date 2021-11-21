@@ -23,14 +23,123 @@
       src="https://kit.fontawesome.com/fd3606a8a1.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="hero">
       <h2>Hello, I am</h2>
       <h1>Scarleth Bernabe</h1>
       <p class="mb-5">Front-end developer based in Maryland</p>
-      <a href="#" class="btn btn-branding">Contact Me</a>
-      <a href="#" class="btn btn-branding">About Me</a>
+      <a href="/contact.html" class="btn btn-branding">Contact Me</a>
+      <a href="/about.html" class="btn btn-branding">About Me</a>
+
+      <div class="container">
+        <h2 style="margin-top: 75px; margin-bottom: 30px">My Projects</h2>
+        <!-- Carousel Start -->
+        <div
+          id="carouselIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="4000"
+        >
+          <ol class="carousel-indicators">
+            <li
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></li>
+            <li
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></li>
+            <li
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></li>
+            <li
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></li>
+            <li
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/images/coming-soon.jpg"
+                class="d-block w-100 carousel-image"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/coming-soon.jpg"
+                class="d-block w-100 carousel-image"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/Project 2 - Vanilla JS  Weather .png"
+                class="d-block w-100 carousel-image"
+                alt="Third slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/Project 1 Sweet Granadilla.png"
+                class="d-block w-100 carousel-image"
+                alt="Fourth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/coming-soon.jpg"
+                class="d-block w-100 carousel-image"
+                alt="Last slide"
+              />
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Carousel End -->
+        <a href="/projects.html" class="btn btn-branding mt-4">View My Projects</a>
+      </div>
     </div>
 
     <footer class="text-center">
