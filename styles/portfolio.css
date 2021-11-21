@@ -1,33 +1,67 @@
 :root {
   --primary-color: #498662;
-  --secondary-color: #2fc0b4;
-  --tertiary-color: #fa8d98;
-  --footer-color: #f2ff97;
+  --secondary-color: #32beb3;
+  --tertiary-color: rgb(250, 135, 82);
+  --background-color: rgb(252, 207, 140);
+  --footer-text-color: #f2ff97;
   --my-name-font: "Shadows Into Light Two", cursive;
   --heading-font: "Bodoni Moda", serif;
-  --main-font: "Poppins", sans-serif;
+  --paragraph-font: "Poppins", sans-serif;
 }
 
 body {
-  background: rgb(252, 207, 140);
+  background: var(--tertiary-color); /* This is not the "hero" section color */
   color: var(--primary-color);
-  font-family: var(--main-font);
+  font-family: var(--paragraph-font);
 }
 
-h1,
-h2 {
-  font-family: var(--heading-font);
+footer {
+  color: var(--footer-text-color);
+}
+
+footer p{
+  font-family: var(--paragraph-font);
+  font-size: 12px;
+  font-weight: lighter;
+} /* Note: The font family is assigned to the footer/p because the footer section is not part of the 'hero' section.*/
+
+.hero {
+  background: var(--background-color);
   text-align: center;
+  padding: 160px 20px;
 }
-footer{
-  color: var(--footer-color);
-}
-.name {
+
+.hero h1 {
   font-family: var(--my-name-font);
-  font-size: 60px;
-  padding: 20px;
+  font-weight: bold;
+  font-size: 75px;
+  padding: 15px;
 }
-.footer-icon{
+
+.hero h2{
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 2;
+}
+
+.hero p{
+  font-size: 22px;
+  line-height: 2;
+  color: var(--tertiary-color);
+}
+
+.btn-branding {
+  background: var(--secondary-color);
+  color: var(--footer-text-color);
+  border-radius: 7px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.footer-icon {
   font-size: 25px;
   margin: 0 20px;
+  margin-top: 15px;
 }
