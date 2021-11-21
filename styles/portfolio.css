@@ -19,7 +19,7 @@ footer {
   color: var(--footer-text-color);
 }
 
-footer p{
+footer p {
   font-family: var(--paragraph-font);
   font-size: 12px;
   font-weight: lighter;
@@ -38,17 +38,18 @@ footer p{
   padding: 15px;
 }
 
-.hero h2{
+.hero h2 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
   line-height: 2;
 }
 
-.hero p{
+.hero p {
   font-size: 22px;
   line-height: 2;
   color: var(--tertiary-color);
+  line-height: 2;
 }
 
 .btn-branding {
