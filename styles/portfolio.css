@@ -29,9 +29,13 @@ h1 {
 h2 {
   font-weight: bold;
 }
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
 
 p {
-  line-height: 30px;
+  line-height: 25px;
 }
 
 a {
@@ -161,12 +165,31 @@ footer p {
   border-radius: 7px;
 }
 
-.project-description {
+.card-body {
+  background: var(--tertiary-color);
+}
+
+.about-description {
   color: var(--paragraph-color);
   padding: auto;
 }
-.project-description .project-button {
+.about-description .project-button {
   margin-top: 15px !important;
+}
+
+.project-image {
+  border: 3px solid var(--primary-color);
+  border-radius: 7px;
+  width: 100%;
+  height: 150px;
+}
+
+.project-description {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: lighter;
+  text-align: center;
 }
 
 .footer-icon {
@@ -221,27 +244,28 @@ footer p {
   h1 {
     padding-bottom: 20px;
   }
-  h2{
+  h2 {
     margin-top: 15px;
-  }
-  .container {
-    margin: 10px auto;
-  }
-  .profile-photo{
-  margin: 10px auto;
-  width: 200px;
-  height: 200px;
-  border-radius: 7px;
-  }
-  .project-description {
-    text-align: center;
-  }
-  i {
-    padding: 20px 0 0;
   }
   img {
     margin-bottom: 40px;
   }
+  i {
+    padding: 20px 0 0;
+  }
+  .container {
+    margin: 10px auto;
+  }
+  .profile-photo {
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+  }
+  .project-description {
+    text-align: center;
+  }
+
   .fa-3x {
     font-size: 50px;
   }
