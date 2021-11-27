@@ -8,6 +8,7 @@
 }
 
 body {
+  /* Background image by Irina Kostsenich*/
   background-image: url(/images/background-2.jpg);
   background-size: cover;
   color: var(--primary-color);
@@ -18,9 +19,11 @@ body {
 h1 {
   font-family: var(--main-font);
   color: var(--primary-color);
+  line-height: 1.5;
   text-align: center;
   font-size: 40px;
-  margin-top: 70px;
+  margin-top: 90px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -55,8 +58,8 @@ footer p {
   font-family: var(--main-font);
   font-size: 12px;
   font-weight: lighter;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .homepage {
@@ -139,8 +142,8 @@ footer p {
 
 .container {
   background: var(--tertiary-color);
-  padding: 20px 40px;
-  margin: 30px 90px;
+  padding: 35px 40px;
+  margin: 30px auto;
   border: 7px solid var(--primary-color);
   border-radius: 7px;
 }
@@ -152,9 +155,9 @@ footer p {
 
 .profile-photo {
   display: block;
-  margin: 50px auto 0;
-  width: 325px;
-  height: 325px;
+  margin: 70px auto 0;
+  width: 350px;
+  height: 350px;
   border-radius: 7px;
 }
 
@@ -162,11 +165,14 @@ footer p {
   color: var(--paragraph-color);
   padding: auto;
 }
+.project-description .project-button {
+  margin-top: 15px !important;
+}
 
 .footer-icon {
   font-size: 25px;
   margin: 0 20px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 @media (max-width: 767.98px) {
@@ -195,7 +201,7 @@ footer p {
     margin: 80px 0 40px !important;
   }
   .carousel {
-    margin: 0 auto;
+    margin: 0 auto !important;
     width: 300px;
     height: 230px;
   }
@@ -207,20 +213,36 @@ footer p {
   .project-button {
     margin-bottom: 20px;
   }
-  
-  /* About/Project/Contact pages */
-  .container {
-    margin: 10px 50px;
-  }
-  /* container is not centered; it moved beyond the right side of the screen. */
 
+  /* About/Project/Contact pages */
+  body {
+    padding: 10px 35px;
+  }
+  h1 {
+    padding-bottom: 20px;
+  }
+  h2{
+    margin-top: 15px;
+  }
+  .container {
+    margin: 10px auto;
+  }
+  .profile-photo{
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 7px;
+  }
   .project-description {
     text-align: center;
   }
-  img{
-    padding-bottom: 40px;
+  i {
+    padding: 20px 0 0;
   }
-  .fa-3x{
-    font-size: 35px;
+  img {
+    margin-bottom: 40px;
+  }
+  .fa-3x {
+    font-size: 50px;
   }
 }
