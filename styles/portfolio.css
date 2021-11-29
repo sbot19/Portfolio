@@ -88,7 +88,6 @@
 /* Why is the color is not applied? It only displaye default white/gray colors. */
 
 /* All webpages except the homepage */
-
 body {
   /* Background image by Irina Kostsenich*/
   background-image: url(/images/background-2.jpg);
@@ -104,7 +103,7 @@ h1 {
   line-height: 1.5;
   text-align: center;
   font-size: 40px;
-  margin-top: 90px;
+  margin-top: 70px;
   margin-bottom: 10px;
 }
 h1,
@@ -119,33 +118,9 @@ p {
   line-height: 25px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:hover {
-  color: inherit;
-}
-
 i {
   color: var(--paragraph-color);
   margin: 5px 0;
-}
-
-footer {
-  color: var(--paragraph-color);
-  background: var(--tertiary-color);
-  margin: 10px 20px;
-  border-radius: 7px;
-}
-
-footer p {
-  font-family: var(--main-font);
-  font-size: 12px;
-  font-weight: lighter;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
 }
 
 .profile-photo {
@@ -182,6 +157,52 @@ footer p {
 }
 
 /* All webpages */
+
+header,
+footer {
+  color: var(--paragraph-color);
+  background: var(--tertiary-color);
+  margin: 10px 20px;
+  border-radius: 7px;
+}
+
+nav {
+  padding: 10px 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+footer p {
+  font-family: var(--main-font);
+  font-size: 12px;
+  font-weight: lighter;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.logo {
+  font-size: 30px;
+  line-height: 40px;
+  font-family: var(--my-name-font);
+}
 .container {
   background: var(--tertiary-color);
   padding: 35px 40px;
@@ -198,6 +219,11 @@ footer p {
   font-size: 25px;
   margin: 0 20px;
   margin-top: 10px;
+  transition: all 100ms ease-in-out;
+}
+
+.footer-icon:hover {
+  color: var(--primary-color);
 }
 /* Mobile Device version */
 @media (max-width: 767.98px) {
@@ -242,7 +268,7 @@ footer p {
 
   /* All other webpages */
   body {
-    padding: 10px 35px;
+    padding: 10px 10px;
   }
   h1 {
     padding-bottom: 20px;
@@ -250,6 +276,17 @@ footer p {
   h2 {
     margin-top: 15px;
     text-align: center;
+  }
+  nav {
+    padding: 10px;
+    display: block;
+    text-align: center;
+  }
+  nav li {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 5px;
+    margin: 0;
   }
   i {
     padding: 20px 0 0;
