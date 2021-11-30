@@ -17,7 +17,7 @@
 
 .hero {
   text-align: center;
-  padding: 130px 20px 130px;
+  padding: 50px 20px 130px;
 }
 
 .hero h1 {
@@ -25,6 +25,7 @@
   font-weight: bold;
   font-size: 75px;
   padding: 15px;
+  margin-top: 20px;
 }
 
 .hero h2 {
@@ -33,6 +34,10 @@
   line-height: 2;
   color: var(--primary-color);
   margin: 0;
+}
+
+.hero .title {
+  margin: 50px 0 5px;
 }
 
 .hero p {
@@ -103,8 +108,8 @@ h1 {
   line-height: 1.5;
   text-align: center;
   font-size: 40px;
-  margin-top: 70px;
-  margin-bottom: 10px;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
 h1,
@@ -163,8 +168,8 @@ header,
 footer {
   color: var(--paragraph-color);
   background: var(--tertiary-color);
-  margin: 10px 0;
   border-radius: 7px;
+  margin: 0 20px 0;
 }
 
 nav {
@@ -218,29 +223,31 @@ footer p {
 
 .footer-icon {
   font-size: 25px;
-  margin: 20px 20px 0;
+  margin: 20px 20px 10px;
   transition: all 100ms ease-in-out;
 }
 
 .footer-icon:hover {
   color: var(--primary-color);
 }
+
 /* Mobile Device version */
 @media (max-width: 767.98px) {
   /* Homepage */
   .hero {
     padding: 0 10px 20px;
   }
-
   .hero h1 {
     font-size: 50px;
     margin-top: 0;
   }
   h1,
-  .hero h2 {
+  .hero .title {
     font-size: 36px;
     line-height: 1.5;
-    margin: 50px 0 0;
+  }
+  .hero title {
+    margin-top: 40px;
   }
   .hero p {
     font-size: 18px;
@@ -272,9 +279,9 @@ footer p {
   }
   h1 {
     padding-bottom: 20px;
+    margin-top: 40px;
   }
   h2 {
-    margin-top: 0 !important;
     text-align: center;
   }
   nav {
@@ -288,6 +295,11 @@ footer p {
     padding: 0 5px;
     margin: 0;
   }
+  header,
+  footer {
+    margin: auto 0 auto;
+  }
+
   i {
     padding: 20px 0 0;
   }
