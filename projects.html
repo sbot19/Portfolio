@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to my Website - S. Bernabe</title>
+    <meta
+      name="description"
+      content="This is a collection of coding projects created by Scarleth. Scarleth is a front-end developer based in Maryland. "
+    />
+    <title>Scarleth's projects - Scarleth Bernabe</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -32,157 +36,209 @@
   <body>
     <header class="mt-2">
       <nav>
-        <a href="/" class="logo d-none d-md-block">SB</a>
+        <a href="/" class="logo d-none d-md-block" title="Homepage">SB</a>
         <ul>
           <li>
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Scarleth">About</a>
           </li>
           <li class="active">
-            <a href="/projects.html">Projects</a>
+            <a href="/projects.html" title="Scarleth's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Scarleth">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
-    <h1>Coding Projects</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4 project-description">
-          <img
-            src="/images/coming-soon.jpg"
-            class="img-fluid project-image"
-            alt=""
-          />
-          <h3 class="text-center">React Dictionary App</h3>
-          <p class="mb-2 text-center">HTML・CSS・JSX・Bootstrap・API・React</p>
-          <p class="project-description">
-            The goal of this project was to create a dictionary app.Two
-            different API were integrated to populate the information when a
-            word was searched. <br />Desktop version only (?)
-          </p>
-          <a href="https://github.com/sbot19" class=""
-            ><i class="fab fa-github footer-icon"></i
-          ></a>
-          <a href="#" class=""
-            ><i class="fas fa-external-link-alt footer-icon"></i
-          ></a>
-          <!-- Since this is a future project I don't know exactly what the 2 APIs do.  -->
+    <div class="wrapper">
+      <h1>Coding Projects</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 project-description">
+            <img
+              src="/images/coming-soon.jpg"
+              class="img-fluid project-image"
+              alt="React Dictionary App"
+            />
+            <h3 class="text-center">React Dictionary App</h3>
+            <p class="mb-2 text-center">
+              HTML・CSS・JSX・Bootstrap・API・React
+            </p>
+            <p class="project-description">
+              The goal of this project was to create a dictionary app.Two
+              different API were integrated to populate the information when a
+              word was searched. <br />Desktop version only (?)
+            </p>
+            <a
+              href="https://github.com/sbot19"
+              class=""
+              target="_blank"
+              title="Launch Github"
+              ><i class="fab fa-github footer-icon"></i
+            ></a>
+            <a href="#" class="" target="_blank" title="Launch project"
+              ><i class="fas fa-external-link-alt footer-icon"></i
+            ></a>
+            <!-- Since this is a future project I don't know exactly what the 2 APIs do.  -->
+          </div>
+          <div class="col-sm-4 project-description">
+            <img
+              src="/images/coming-soon.jpg"
+              class="img-fluid project-image"
+              alt="React Weather App"
+            />
+            <h3 class="text-center">React Weather App</h3>
+            <p class="mb-2 text-center">
+              HTML・CSS・JSX・API・Bootstrap・React
+            </p>
+            <p class="project-description">
+              This project is based off the original vanilla JS weather app.
+              This version uses React. This app integrates OpenWeatherMap API to
+              search for the current weather conditions and the (7 hr ?)
+              forecast for any city.
+              <br />Desktop version only (?)
+            </p>
+            <a
+              href="https://github.com/sbot19"
+              class=""
+              target="_blank"
+              title="Launch Github"
+              ><i class="fab fa-github footer-icon"></i
+            ></a>
+            <a href="#" class="" target="_blank" title="Launch project"
+              ><i class="fas fa-external-link-alt footer-icon"></i
+            ></a>
+            <!-- Since this is a future project I don't know exactly what the 2 APIs do.  -->
+          </div>
+          <div class="col-sm-4 project-description">
+            <img
+              src="/images/Project 2 - Vanilla JS  Weather .png"
+              class="img-fluid project-image"
+              alt="Vanilla JS Weather App"
+            />
+            <h3 class="text-center">Vanilla JS Weather App</h3>
+            <p class="mb-2 text-center">HTML・CSS・JS・Bootstrap・API</p>
+            <p class="project-description">
+              The goal of this project was to create a weather app. This app
+              integrates OpenWeatherMap API to search for the current weather
+              conditions and for the 5-day forecast for any city. Additionally,
+              the background changes as weather conditions change.<br />Desktop
+              version only
+            </p>
+            <a
+              href="https://github.com/sbot19/Vanilla-weather-app"
+              class=""
+              target="_blank"
+              title="Launch Github"
+              ><i class="fab fa-github footer-icon"></i
+            ></a>
+            <a
+              href="https://zealous-ramanujan-42b921.netlify.app"
+              class=""
+              target="_blank"
+              title="Launch project"
+              ><i class="fas fa-external-link-alt footer-icon"></i
+            ></a>
+          </div>
         </div>
-        <div class="col-sm-4 project-description">
-          <img
-            src="/images/coming-soon.jpg"
-            class="img-fluid project-image"
-            alt=""
-          />
-          <h3 class="text-center">React Weather App</h3>
-          <p class="mb-2 text-center">HTML・CSS・JSX・API・Bootstrap・React</p>
-          <p class="project-description">
-            This project is based off the original vanilla JS weather app. This
-            version uses React. This app integrates OpenWeatherMap API to search
-            for the current weather conditions and the (7 hr ?) forecast for any
-            city.
-            <br />Desktop version only (?)
-          </p>
-          <a href="https://github.com/sbot19" class=""
-            ><i class="fab fa-github footer-icon"></i
-          ></a>
-          <a href="#" class=""
-            ><i class="fas fa-external-link-alt footer-icon"></i
-          ></a>
-          <!-- Since this is a future project I don't know exactly what the 2 APIs do.  -->
-        </div>
-        <div class="col-sm-4 project-description">
-          <img
-            src="/images/Project 2 - Vanilla JS  Weather .png"
-            class="img-fluid project-image"
-            alt=""
-          />
-          <h3 class="text-center">Vanilla JS Weather App</h3>
-          <p class="mb-2 text-center">HTML・CSS・JS・Bootstrap・API</p>
-          <p class="project-description">
-            The goal of this project was to create a weather app. This app
-            integrates OpenWeatherMap API to search for the current weather
-            conditions and for the 5-day forecast for any city. Additionally,
-            the background changes as weather conditions change.<br />Desktop
-            version only
-          </p>
-          <a href="https://github.com/sbot19" class=""
-            ><i class="fab fa-github footer-icon"></i
-          ></a>
-          <a href="#" class=""
-            ><i class="fas fa-external-link-alt footer-icon"></i
-          ></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 project-description">
-          <img
-            src="/images/Project 1 Sweet Granadilla.png"
-            class="img-fluid project-image"
-            alt=""
-          />
-          <h3 class="text-center">Sweet Granadilla Webpage</h3>
-          <p class="mb-2 text-center">HTML・CSS・JS</p>
-          <p class="project-description">
-            This is my first coding project. The goal was to create a simple,
-            static landing page about sweet granadilla, a tropical fruit.
-            JavaScript was used to ask for the user's name and email.
-            <br />Desktop version only
-          </p>
-          <a href="https://github.com/sbot19" class=""
-            ><i class="fab fa-github footer-icon"></i
-          ></a>
-          <a href="#" class=""
-            ><i class="fas fa-external-link-alt footer-icon"></i
-          ></a>
-          <!-- Since this is a future project I don't know exactly what the 2 APIs do.  -->
-        </div>
-        <div class="col-sm-4 project-description">
-          <img
-            src="/images/coming-soon.jpg"
-            class="img-fluid project-image"
-            alt=""
-          />
-          <h3 class="text-center">Coding Portfolio</h3>
-          <p class="mb-2 text-center">HTML・CSS・Bootstrap</p>
-          <p class="project-description">
-            This is my coding portfolio website. I learned alot about responsive
-            web design and the importance of SEO.
-          </p>
-          <a href="https://github.com/sbot19" class=""
-            ><i class="fab fa-github footer-icon"></i
-          ></a>
-          <a href="#" class=""
-            ><i class="fas fa-external-link-alt footer-icon"></i
-          ></a>
-          <!-- Since this is a future project I don't know exactly what the 2 APIs do.  -->
-        </div>
-        <div class="col-sm-4 project-description">
-          <img
-            src="/images/coming-soon.jpg"
-            class="img-fluid project-image"
-            alt=""
-          />
-          <h3 class="text-center">Future Project</h3>
-          <p class="mb-2 text-center">HTML・CSS・JS・API</p>
-          <p class="project-description">
-            The goal of this project was to create a calculator app. This app
-            integrates API ...
-          </p>
-          <a href="https://github.com/sbot19" class=""
-            ><i class="fab fa-github footer-icon"></i
-          ></a>
-          <a href="#" class=""
-            ><i class="fas fa-external-link-alt footer-icon"></i
-          ></a>
-          <!-- Since this is a future project I don't know exactly what the 2 APIs do.  -->
+        <div class="row">
+          <div class="col-sm-4 project-description">
+            <img
+              src="/images/Project 1 Sweet Granadilla.png"
+              class="img-fluid project-image"
+              alt="Sweet Granadilla Landing Page"
+            />
+            <h3 class="text-center">Sweet Granadilla Webpage</h3>
+            <p class="mb-2 text-center">HTML・CSS・JS</p>
+            <p class="project-description">
+              This is my first coding project. The goal was to create a simple,
+              static landing page about sweet granadilla, a tropical fruit.
+              JavaScript was used to ask for the user's name and email.
+              <br />Desktop version only
+            </p>
+            <a
+              href="https://github.com/sbot19/Sweet-Granadilla-Page"
+              class=""
+              target="_blank"
+              title="Launch Github"
+              ><i class="fab fa-github footer-icon"></i
+            ></a>
+            <a
+              href="https://epic-edison-a9a826.netlify.app"
+              class=""
+              target="_blank"
+              title="Launch project"
+              ><i class="fas fa-external-link-alt footer-icon"></i
+            ></a>
+            <!-- Since this is a future project I don't know exactly what the 2 APIs do.  -->
+          </div>
+          <div class="col-sm-4 project-description">
+            <img
+              src="/images/Portfolio.png"
+              class="img-fluid project-image"
+              alt="Coding Portfolio"
+            />
+            <h3 class="text-center">Coding Portfolio</h3>
+            <p class="mb-2 text-center">HTML・CSS・Bootstrap</p>
+            <p class="project-description">
+              This is my coding portfolio website. I learned alot about
+              responsive web design and the importance of SEO.
+            </p>
+            <a
+              href="https://github.com/sbot19/Portfolio"
+              class=""
+              target="_blank"
+              title="Launch Github"
+              ><i class="fab fa-github footer-icon"></i
+            ></a>
+            <a
+              href="https://upbeat-albattani-9d1a54.netlify.app"
+              class=""
+              target="_blank"
+              title="Launch project"
+              ><i class="fas fa-external-link-alt footer-icon"></i
+            ></a>
+            <!-- Since this is a future project I don't know exactly what the 2 APIs do.  -->
+          </div>
+          <div class="col-sm-4 project-description">
+            <img
+              src="/images/coming-soon.jpg"
+              class="img-fluid project-image"
+              alt="Calculator App"
+            />
+            <h3 class="text-center">Future Project</h3>
+            <p class="mb-2 text-center">HTML・CSS・JS・API</p>
+            <p class="project-description">
+              The goal of this project was to create a calculator app. This app
+              integrates API ...
+            </p>
+            <a
+              href="https://github.com/sbot19"
+              class=""
+              target="_blank"
+              title="Launch Github"
+              ><i class="fab fa-github footer-icon"></i
+            ></a>
+            <a href="#" class="" target="_blank" title="Launch project"
+              ><i class="fas fa-external-link-alt footer-icon"></i
+            ></a>
+            <!-- Since this is a future project I don't know exactly what the 2 APIs do.  -->
+          </div>
         </div>
       </div>
     </div>
+    <footer class="footer mt-auto text-center mb-2 p-1">
+      <a href="https://github.com/sbot19" target="_blank" title="Github profile"
+        ><i class="fab fa-github footer-icon"></i
+      ></a>
+      <a href="mailto:smbernabe@gmail.com" title="Email"
+        ><i class="far fa-envelope footer-icon"></i
+      ></a>
+      <p class="mt-2 lh-1">Website designed and coded by Scarleth Bernabe</p>
+      <p class="pb-3 lh-1">© Copyright 2021, Scarleth Bernabe</p>
+    </footer>
   </body>
 </html>

@@ -220,7 +220,10 @@ footer p {
 .row {
   color: var(--paragraph-color);
 }
-
+.wrapper {
+  min-height: 100%;
+  margin-bottom: 150px;
+}
 .footer-icon {
   font-size: 25px;
   margin: 20px 20px 10px;
@@ -307,6 +310,9 @@ footer p {
     margin: 10px auto;
     padding: 20px 25px;
   }
+  .wrapper {
+    margin-bottom: 100px;
+  }
   .mini-profile-pic {
     margin: 0 auto;
   }
@@ -331,13 +337,13 @@ footer p {
     padding-bottom: 10px !important;
   }
   .fa-3x {
-    font-size: 50px;
+    font-size: 40px;
   }
   .contact-info {
     font-size: 14px;
   }
   .footer-icon {
-    margin-top: 15px;
+    margin-top: 12px;
     padding: 0;
   }
 }

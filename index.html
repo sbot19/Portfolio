@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to my Website - S. Bernabe</title>
-
+    <meta
+      name="description"
+      content="Scarleth is a front-end developer based in Maryland."
+    />
+    <title>Front-end developer - Scarleth Bernabe</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,19 +35,19 @@
   <body class="homepage">
     <header class="mt-2">
       <nav>
-        <a href="/" class="logo d-none d-md-block">SB</a>
+        <a href="/" class="logo d-none d-md-block" title="Homepage">SB</a>
         <ul>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Scarleth">About</a>
           </li>
           <li>
-            <a href="/projects.html">Projects</a>
+            <a href="/projects.html" title="Scarleth's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Scarleth">Contact</a>
           </li>
         </ul>
       </nav>
@@ -55,10 +58,18 @@
       <h1>Scarleth Bernabe</h1>
       <p style="opacity: 1">Front-end developer based in Maryland</p>
 
-      <a href="/contact.html" class="btn btn-branding mobile-button"
+      <a
+        href="/contact.html"
+        class="btn btn-branding mobile-button"
+        title="Contact Scarleth"
         >Contact Me</a
       >
-      <a href="/about.html" class="btn btn-branding mobile-button">About Me</a>
+      <a
+        href="/about.html"
+        class="btn btn-branding mobile-button"
+        title="About Scarleth"
+        >About Me</a
+      >
 
       <div class="container">
         <h2 class="homepage-projects">My Projects</h2>
@@ -109,35 +120,35 @@
               <img
                 src="/images/coming-soon.jpg"
                 class="d-block w-100 carousel-image"
-                alt="First slide"
+                alt="Dictionary App preview"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="/images/coming-soon.jpg"
                 class="d-block w-100 carousel-image"
-                alt="Second slide"
+                alt="React Weather App preview"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="/images/Project 2 - Vanilla JS  Weather .png"
                 class="d-block w-100 carousel-image"
-                alt="Third slide"
+                alt="Vanilla JS Weather App preview"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="/images/Project 1 Sweet Granadilla.png"
                 class="d-block w-100 carousel-image"
-                alt="Fourth slide"
+                alt="Simple landing page preview"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="/images/coming-soon.jpg"
                 class="d-block w-100 carousel-image"
-                alt="Last slide"
+                alt="Portfolio preview"
               />
             </div>
           </div>
@@ -166,16 +177,17 @@
           href="/projects.html"
           class="btn btn-branding project-button"
           style="margin-top: 60px; margin-bottom: 60px"
-          >View My Projects</a
+          title="View Scarleth's projects"
+          >View My Work</a
         >
       </div>
     </div>
 
     <footer class="footer mt-auto text-center mb-2 p-1">
-      <a href="https://github.com/sbot19" target="_blank"
+      <a href="https://github.com/sbot19" target="_blank" title="Github profile"
         ><i class="fab fa-github footer-icon"></i
       ></a>
-      <a href="mailto:smbernabe@gmail.com"
+      <a href="mailto:smbernabe@gmail.com" title="Email"
         ><i class="far fa-envelope footer-icon"></i
       ></a>
       <p class="mt-2 lh-1">Website designed and coded by Scarleth Bernabe</p>
