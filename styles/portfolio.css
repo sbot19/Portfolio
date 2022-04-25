@@ -85,13 +85,6 @@
   padding: 10px 20px 0;
 }
 
-.carousel-indicators li,
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  color: var(--paragraph-color);
-}
-/* Why is the color is not applied? It only displaye default white/gray colors. */
-
 /* All webpages except the homepage */
 body {
   /* Background image by Irina Kostsenich*/
@@ -318,10 +311,7 @@ footer p {
   }
   /*Will also replace the "mini-profile-pic"*/
   .profile-photo {
-    margin: 10px auto;
-    border-radius: 7px;
-    width: 100%;
-    height: 150px;
+    display: none;
   }
   .content-description {
     text-align: center;
